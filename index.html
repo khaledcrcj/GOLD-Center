@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
 
   <header class="site-header" id="top">
     <div class="topbar">
       <div class="container topbar-inner">
         <span data-i18n="location">Cairo, Egypt</span>
-        <span>Egypt · Middle East · Africa</span>
+        <span data-i18n="regionLine">Egypt · Middle East · Africa</span>
       </div>
     </div>
     <div class="container nav-wrap">
@@ -27,8 +27,10 @@
         <a href="#about" data-i18n="navAbout">About</a>
         <a href="#pillars" data-i18n="navPillars">Our pillars</a>
         <a href="#programmes" data-i18n="navProgrammes">Programmes</a>
-        <a href="#research" data-i18n="navResearch">Research & partnerships</a>
+        <a href="#research" data-i18n="navResearch">Research</a>
+        <a href="#partnerships" data-i18n="navPartnerships">Partnerships</a>
       </nav>
+      <a class="nav-register" href="#register" data-i18n="navRegister">Register interest</a>
       <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">العربية ⇄</button>
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
     </div>
@@ -41,7 +43,10 @@
           <p class="eyebrow">Governance · Oversight · Law · Diplomacy</p>
           <h1 data-i18n="heroTitle">Advancing knowledge.<br>Strengthening institutions.</h1>
           <p class="hero-lede" data-i18n="heroText">GOLD brings together Governance, Oversight, Law and Diplomacy to advance professional knowledge and strengthen institutional capacity across Egypt, the Middle East and Africa.</p>
-          <a class="cta" href="#pillars" data-i18n="explore">Explore our work <span aria-hidden="true">↗</span></a>
+          <div class="hero-actions">
+            <a class="cta" href="#pillars" data-i18n="explore">Explore our work <span aria-hidden="true">↗</span></a>
+            <a class="button button-gold" href="#register" data-i18n="heroRegister">Register for courses</a>
+          </div>
         </div>
         <div class="hero-mark" aria-hidden="true">
           <div class="gold-box"><span>G</span><span>O</span><span>L</span><span>D</span></div>
@@ -89,6 +94,7 @@
           <article><span>01</span><h3 data-i18n="instTitle">Institutions & professionals</h3><p data-i18n="instText">Specialized training, executive development and tailored capacity-building for institutions and practitioners across the Center’s fields of expertise.</p></article>
           <article><span>02</span><h3 data-i18n="studentTitle">Students & early-career professionals</h3><p data-i18n="studentText">Tailored programmes for undergraduate and postgraduate students and early-career professionals, bridging academic knowledge with practice and preparing the next generation of professionals.</p></article>
         </div>
+        <div class="programme-cta"><a class="button button-navy" href="#register" data-i18n="programmeRegister">Register your interest in a course</a></div>
       </div>
     </section>
 
@@ -107,19 +113,95 @@
 
     <section class="section" id="research">
       <div class="container split">
-        <div class="section-label">04 / <span data-i18n="researchLabel">Research & partnerships</span></div>
+        <div class="section-label">04 / <span data-i18n="researchLabel">Research & knowledge</span></div>
         <div>
-          <h2 data-i18n="researchTitle">Research, dialogue<br>and cooperation.</h2>
-          <p data-i18n="researchP1">Beyond training, GOLD Center brings research, policy analysis and professional dialogue together across its four pillars.</p>
-          <p data-i18n="researchP2">The Center undertakes research and policy analysis, develops publications and knowledge products, convenes experts and decision-makers, and builds national, regional and international partnerships.</p>
-          <p data-i18n="researchP3">It may also cooperate with recognized academic and professional institutions to deliver accredited or jointly certified programmes, subject to applicable legal and accreditation requirements.</p>
+          <h2 data-i18n="researchTitle">Research, dialogue<br>and applied knowledge.</h2>
+          <p data-i18n="researchP1">Beyond training, GOLD Center connects research, policy analysis and professional dialogue across its four pillars.</p>
+          <p data-i18n="researchP2">The Center undertakes research and policy analysis, develops publications and knowledge products, and convenes experts, practitioners and decision-makers around matters of institutional and professional relevance.</p>
+          <p data-i18n="researchP3">Its work is designed to bridge academic knowledge, comparative experience and practical institutional needs.</p>
         </div>
+      </div>
+    </section>
+
+    <section class="section partnerships" id="partnerships">
+      <div class="container">
+        <div class="section-label">05 / <span data-i18n="partnershipsLabel">Partnerships</span></div>
+        <div class="section-intro">
+          <h2 data-i18n="partnershipsTitle">Institutional cooperation.<br>Shared expertise.</h2>
+          <p data-i18n="partnershipsIntro">GOLD Center develops national, regional and international cooperation with institutions that share its commitment to professional development, knowledge exchange and capacity-building.</p>
+        </div>
+        <div class="partner-grid">
+          <article class="partner-card">
+            <div class="partner-mark">PJL</div>
+            <div>
+              <h3>PJL</h3>
+              <p data-i18n="pjlText">An institutional partner in professional learning, knowledge exchange and collaborative capacity-building initiatives.</p>
+              <span class="partner-status" data-i18n="partnerRelationship">Institutional relationship</span>
+            </div>
+          </article>
+          <article class="partner-card">
+            <div class="partner-mark unicri">UNICRI</div>
+            <div>
+              <h3>UNICRI</h3>
+              <p data-i18n="unicriText">United Nations Interregional Crime and Justice Research Institute. Cooperation may include training, education, research and capacity-building activities, subject to the applicable arrangements between the parties.</p>
+              <span class="partner-status" data-i18n="partnerRelationship">Institutional relationship</span>
+            </div>
+          </article>
+        </div>
+        <p class="partnership-note" data-i18n="partnershipNote">References to institutional relationships describe areas of cooperation and do not imply endorsement beyond the scope of the applicable arrangements.</p>
+      </div>
+    </section>
+
+    <section class="section register-section" id="register">
+      <div class="container register-grid">
+        <div>
+          <div class="section-label">06 / <span data-i18n="registerLabel">Course enquiries</span></div>
+          <h2 data-i18n="registerTitle">Register your interest.</h2>
+          <p data-i18n="registerIntro">Tell us which area or programme interests you. The GOLD Center team can contact you with available dates, programme details and applicable fees.</p>
+          <div class="register-note">
+            <strong data-i18n="whatHappens">What happens next?</strong>
+            <p data-i18n="whatHappensText">Submitting this form is an expression of interest only. It does not create an enrolment or payment obligation.</p>
+          </div>
+        </div>
+
+        <form class="interest-form" action="https://formsubmit.co/info@goldc.org" method="POST">
+          <input type="hidden" name="_subject" value="New GOLD Center course enquiry">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://goldc.org/?submitted=1#register">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off">
+
+          <div class="form-row">
+            <label><span data-i18n="nameLabel">Full name</span><input type="text" name="Name" required autocomplete="name"></label>
+            <label><span data-i18n="emailLabel">Email address</span><input type="email" name="Email" required autocomplete="email"></label>
+          </div>
+          <div class="form-row">
+            <label><span data-i18n="phoneLabel">Phone number</span><input type="tel" name="Phone" autocomplete="tel"></label>
+            <label><span data-i18n="countryLabel">Country</span><input type="text" name="Country" autocomplete="country-name"></label>
+          </div>
+          <label>
+            <span data-i18n="interestLabel">Area of interest</span>
+            <select name="Area of interest" required>
+              <option value="" data-i18n="selectOption">Select an area</option>
+              <option value="Governance" data-i18n="govTitle">Governance</option>
+              <option value="Oversight" data-i18n="overTitle">Oversight</option>
+              <option value="Law" data-i18n="lawTitle">Law</option>
+              <option value="Diplomacy" data-i18n="dipTitle">Diplomacy</option>
+              <option value="Institutional training" data-i18n="institutionalTraining">Institutional / tailored training</option>
+              <option value="Other" data-i18n="otherOption">Other</option>
+            </select>
+          </label>
+          <label><span data-i18n="courseLabel">Course or topic, if known</span><input type="text" name="Course or topic"></label>
+          <label><span data-i18n="messageLabel">Message</span><textarea name="Message" rows="4" data-i18n-placeholder="messagePlaceholder" placeholder="Tell us briefly what you are looking for."></textarea></label>
+          <label class="consent"><input type="checkbox" name="Consent" value="Yes" required><span data-i18n="consentText">I agree that GOLD Center may use the information submitted here to respond to my enquiry.</span></label>
+          <button class="button button-gold form-submit" type="submit" data-i18n="submitButton">Submit interest</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
 
     <section class="closing">
       <div class="container closing-inner">
-        <p class="eyebrow">Egypt · Middle East · Africa</p>
+        <p class="eyebrow" data-i18n="regionLine">Egypt · Middle East · Africa</p>
         <h2 data-i18n="closingTitle">A regional platform for knowledge,<br>dialogue and professional excellence.</h2>
       </div>
     </section>
