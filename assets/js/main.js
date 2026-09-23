@@ -1,150 +1,20 @@
-const translations = {
-  ar: {
-    skip:'الانتقال إلى المحتوى',
-    location:'القاهرة، مصر',
-    regionLine:'مصر · الشرق الأوسط · أفريقيا',
-    navAbout:'عن المركز',
-    navPillars:'ركائز GOLD',
-    navProgrammes:'البرامج',
-    navResearch:'البحوث',
-    navPartnerships:'الشراكات',
-    navRegister:'سجّل اهتمامك',
+const translations={
+en:{
+skip:'Skip to content',location:'Cairo, Egypt',regionLine:'Egypt · Middle East · Africa',navAbout:'About',navPillars:'Areas of work',navProgrammes:'Programmes',navResearch:'Research',navPartnerships:'Partnerships',navEnquire:'Enquire & register interest',navExpert:'Register as an expert',heroTitle:'Advancing knowledge.<br>Strengthening institutions.',heroText:'GOLD brings together Governance, Oversight, Law and Diplomacy to connect professional expertise with the needs of institutions across Egypt, the Middle East and Africa.',explore:'Explore our work <span aria-hidden="true">↗</span>',heroEnquire:'Enquire & register interest',regionalPlatform:'A regional platform for knowledge and professional expertise.<br>A practice-oriented approach.',aboutLabel:'About the Center',aboutTitle:'Where expertise<br>meets practice.',aboutP1:'GOLD stands for Governance, Oversight, Law and Diplomacy: four complementary pillars that shape the Center’s work in professional education, institutional development, research and applied expertise.',aboutP2:'The Center supports judicial bodies, prosecution authorities, law-enforcement agencies, diplomatic and governmental institutions, universities, professionals and the private sector through specialized training, executive and professional development, research, policy dialogue, technical assistance and capacity-building.',aboutP3:'Its network of practitioners and subject-matter experts connects academic and policy perspectives with practical institutional experience and the needs of professionals and organizations.',pillarsLabel:'The GOLD pillars',pillarsTitle:'Four pillars.<br>One connected approach.',pillarsIntro:'Governance, Oversight, Law and Diplomacy form the Center’s four pillars. Education, professional development, research and technical assistance connect them.',govTitle:'Governance',govText:'Institutional development, public policy and effective decision-making, including digital governance and responsible AI governance.',govTags:'Institutional development · Public policy · Digital governance',overTitle:'Oversight',overText:'Accountability, integrity, anti-corruption and compliance, with a focus on institutional oversight, transparency and sound practices.',overTags:'Accountability · Integrity · Compliance',lawTitle:'Law',lawText:'Rule of law, justice and security, including criminal justice, organized crime, illicit financial flows, money laundering and terrorist financing, cybercrime, violent extremism and international judicial cooperation.',lawTags:'Justice & security · International law · Emerging technologies',dipTitle:'Diplomacy',dipText:'Diplomatic practice and international affairs, including international organizations, negotiation, mediation, protocol, foreign policy and international law.',dipTags:'International relations · Negotiation · International cooperation',programmesLabel:'Education & professional development',programmesTitle:'Developing people.<br>Building capacity.',programmesIntro:'Across the four GOLD pillars, the Center develops executive and professional programmes, specialized courses, workshops, conferences, simulations and tailored institutional initiatives.',instTitle:'Institutions & professionals',instText:'Specialized training, executive development and tailored programmes for institutions and practitioners across the Center’s fields of expertise.',studentTitle:'Students & emerging professionals',studentText:'Programmes for undergraduate and postgraduate students and early-career professionals that connect academic knowledge with professional practice.',programmeEnquire:'Enquire about programmes',responding:'Responding to change',emergingTitle:'Expertise for<br>emerging challenges.',emergingText:'The Center addresses emerging issues across governance, oversight, law and diplomacy, drawing on relevant international standards, comparative practices and evolving institutional needs.',tag1:'AI & law',tag2:'Digital transformation',tag3:'Media law & regulation',tag4:'Digital & social media governance',tag5:'Cyber & information-related legal issues',researchLabel:'Research & knowledge',researchTitle:'Research, dialogue<br>and applied knowledge.',researchP1:'Beyond training, GOLD Center connects research, policy analysis and professional dialogue across its four pillars.',researchP2:'The Center develops research, publications and knowledge products and convenes experts, practitioners and decision-makers around matters of institutional and professional relevance.',researchP3:'Its work is intended to bridge academic knowledge, comparative experience and practical institutional needs.',partnershipsLabel:'Partnerships',partnershipsTitle:'Knowledge through<br>institutional cooperation.',partnershipsIntro:'GOLD Center works with national, regional and international organizations and professional institutions in areas of common interest, subject to the scope and terms of each cooperation arrangement.',pjlText:'Cooperation in professional learning, dialogue and initiatives falling within areas of mutual expertise and institutional interest.',unicriText:'Cooperation related to crime prevention, criminal justice, education, training and capacity-building, in accordance with the applicable cooperation arrangements.',partnerLabel:'Institutional partner',partnershipNote:'References to partner organizations describe cooperation arrangements and do not imply endorsement beyond their agreed scope.',enquireLabel:'Enquiries & programme interest',enquireTitle:'Enquire &<br>register interest.',enquireIntro:'Tell us what you are interested in. The GOLD Center team can contact you about programmes, dates, fees, institutional training or other enquiries.',enquireNoteTitle:'What happens next?',enquireNoteText:'Your enquiry is sent to the Center for review. A member of the team may contact you using the details provided.',fName:'Full name *',fEmail:'Email *',fPhone:'Phone / WhatsApp',fCountry:'Country',fOrg:'Organization / institution',fInterest:'Area of interest *',fEnquiryType:'Type of enquiry *',fMessage:'Message',fConsent:'I agree that GOLD Center may use the information provided to respond to this enquiry and contact me about the relevant programme or service. *',choose:'Choose…',opGovernance:'Governance',opOversight:'Oversight',opLaw:'Law, justice & security',opDiplomacy:'Diplomacy & international affairs',opProfessional:'Professional development',opCustom:'Institutional / tailored programme',opOther:'Other',opInterest:'Register interest',opFees:'Fees / pricing',opDates:'Dates / schedule',opInstitutional:'Institutional training',opGeneral:'General enquiry',sendEnquiry:'Send enquiry',expertLabel:'Expert network',expertTitle:'Register as<br>an expert.',expertIntro:'Professionals, academics and practitioners in relevant fields may submit their profile for consideration for GOLD Center’s expert network and future training, research, advisory or dialogue activities.',expertCaveat:'Registration does not constitute appointment, employment, accreditation or a commitment to engage an applicant. Profiles are reviewed according to programme needs.',expertSectionProfessional:'Professional information',eTitle:'Professional title *',eEmployer:'Current employer / organization *',ePosition:'Current position *',eLinkedIn:'LinkedIn profile',expertSectionEducation:'Education & expertise',eUniversity:'University / institution *',eQualification:'Highest level of education *',qBachelor:'Bachelor’s degree',qDiploma:'Postgraduate diploma',qMasters:'Master’s degree',qDoctorate:'Doctorate / PhD',eFieldStudy:'Field of study *',eYears:'Years of professional experience *',eExpertise:'Areas of expertise *',expertSectionLanguage:'Language skills',eLanguages:'Languages and proficiency *',eEnglishTest:'English-language test',tNone:'No formal certificate',tOther:'Other recognized test',eScore:'Test score',eTestYear:'Year obtained',expertSectionContribution:'Potential contribution',eContribution:'Areas in which you may contribute',cTraining:'Training',cResearch:'Research',cConsultancy:'Consultancy / technical assistance',cConferences:'Conferences / panels',cPolicy:'Policy dialogue',cProgramme:'Programme development',eBio:'Short professional biography *',eCV:'CV / résumé (PDF, DOC or DOCX) *',eCVNote:'Please upload a current CV. Keep the file reasonably small for reliable submission.',eConsent:'I confirm that the information is accurate and agree that GOLD Center may retain and review this profile for expert-network and relevant professional opportunities. *',submitExpert:'Submit expert profile',closingEyebrow:'Egypt · Middle East · Africa',closingTitle:'A regional platform for knowledge,<br>dialogue and professional excellence.',footerLocation:'Cairo, Egypt',owned:'GOLD Center is owned and operated by Governance for Educational Investment LLC.',tax:'Tax Registration No. 774332336.',backTop:'Back to top ↑',interestSuccess:'Thank you. Your enquiry has been submitted to GOLD Center.',expertSuccess:'Thank you. Your expert profile has been submitted for review.'},
+ar:{
+skip:'تجاوز إلى المحتوى',location:'القاهرة، مصر',regionLine:'مصر · الشرق الأوسط · أفريقيا',navAbout:'عن المركز',navPillars:'مجالات العمل',navProgrammes:'البرامج',navResearch:'البحوث',navPartnerships:'الشراكات',navEnquire:'استفسر وسجّل اهتمامك',navExpert:'التسجيل كخبير',heroTitle:'معرفة تطبيقية.<br>مؤسسات أكثر كفاءة.',heroText:'يجمع مركز GOLD بين الحوكمة والرقابة والقانون والدبلوماسية، ويربط الخبرات المهنية باحتياجات المؤسسات في مصر والشرق الأوسط وأفريقيا.',explore:'استكشف مجالات عملنا <span aria-hidden="true">↗</span>',heroEnquire:'استفسر وسجّل اهتمامك',regionalPlatform:'منصة إقليمية للمعرفة والخبرة المهنية.<br>منهج عملي موجّه للتطبيق.',aboutLabel:'عن المركز',aboutTitle:'حين تلتقي الخبرة<br>بالتطبيق.',aboutP1:'يرمز اسم GOLD إلى الحوكمة والرقابة والقانون والدبلوماسية، وهي أربعة محاور متكاملة يقوم عليها عمل المركز في التعليم المهني والتطوير المؤسسي والبحث والخبرة التطبيقية.',aboutP2:'يقدّم المركز برامجه للجهات القضائية والنيابات وأجهزة إنفاذ القانون والمؤسسات الدبلوماسية والحكومية والجامعات والمهنيين والقطاع الخاص، من خلال التدريب المتخصص والتطوير التنفيذي والمهني والبحث وحوار السياسات والمساعدة الفنية وبرامج بناء القدرات.',aboutP3:'وتربط شبكة المركز من الممارسين والخبراء المتخصصين بين الرؤى الأكاديمية والسياساتية والخبرة المؤسسية العملية، بما يستجيب لاحتياجات المهنيين والمؤسسات.',pillarsLabel:'محاور GOLD',pillarsTitle:'أربعة محاور.<br>رؤية مترابطة.',pillarsIntro:'تمثل الحوكمة والرقابة والقانون والدبلوماسية المحاور الأربعة للمركز، وتربط بينها أنشطة التعليم والتطوير المهني والبحث والمساعدة الفنية.',govTitle:'الحوكمة',govText:'التطوير المؤسسي والسياسات العامة وفعالية صنع القرار، بما يشمل الحوكمة الرقمية والأطر المسؤولة لحوكمة الذكاء الاصطناعي.',govTags:'التطوير المؤسسي · السياسات العامة · الحوكمة الرقمية',overTitle:'الرقابة',overText:'المساءلة والنزاهة ومكافحة الفساد والامتثال، مع التركيز على تطوير نظم الرقابة المؤسسية والشفافية والممارسات الرشيدة.',overTags:'المساءلة · النزاهة · الامتثال',lawTitle:'القانون',lawText:'سيادة القانون والعدالة والأمن، بما في ذلك العدالة الجنائية والجريمة المنظمة والتدفقات المالية غير المشروعة وغسل الأموال وتمويل الإرهاب والجرائم السيبرانية والتطرف العنيف والتعاون القضائي الدولي.',lawTags:'العدالة والأمن · القانون الدولي · التقنيات الناشئة',dipTitle:'الدبلوماسية',dipText:'الممارسة الدبلوماسية والشؤون الدولية، بما يشمل المنظمات الدولية والتفاوض والوساطة والبروتوكول والسياسة الخارجية والقانون الدولي.',dipTags:'العلاقات الدولية · التفاوض · التعاون الدولي',programmesLabel:'التعليم والتطوير المهني',programmesTitle:'تنمية الكفاءات.<br>وتطوير القدرات.',programmesIntro:'يعمل المركز عبر محاور GOLD الأربعة على تطوير برامج تنفيذية ومهنية ودورات متخصصة وورش عمل ومؤتمرات ومحاكاة ومبادرات مؤسسية مصممة وفق الاحتياج.',instTitle:'المؤسسات والمهنيون',instText:'تدريب متخصص وتطوير تنفيذي وبرامج مصممة للمؤسسات والممارسين في مجالات خبرة المركز.',studentTitle:'الطلاب والمهنيون في بداية مسيرتهم',studentText:'برامج لطلاب مرحلتي البكالوريوس والدراسات العليا والمهنيين في بداية مسيرتهم، تربط المعرفة الأكاديمية بالممارسة المهنية.',programmeEnquire:'استفسر عن البرامج',responding:'الاستجابة للمتغيرات',emergingTitle:'خبرة تتعامل مع<br>التحديات الناشئة.',emergingText:'يتناول المركز القضايا الناشئة في مجالات الحوكمة والرقابة والقانون والدبلوماسية، مستندًا إلى المعايير الدولية ذات الصلة والممارسات المقارنة والاحتياجات المؤسسية المتطورة.',tag1:'الذكاء الاصطناعي والقانون',tag2:'التحول الرقمي',tag3:'قانون وتنظيم الإعلام',tag4:'حوكمة الإعلام الرقمي ومنصات التواصل',tag5:'القضايا القانونية المرتبطة بالفضاء السيبراني والمعلومات',researchLabel:'البحوث والمعرفة',researchTitle:'بحث وحوار<br>ومعرفة تطبيقية.',researchP1:'إلى جانب التدريب، يربط مركز GOLD بين البحث وتحليل السياسات والحوار المهني عبر محاوره الأربعة.',researchP2:'يطور المركز البحوث والمنشورات والمنتجات المعرفية، ويجمع الخبراء والممارسين وصنّاع القرار لمناقشة القضايا ذات الصلة بالعمل المؤسسي والمهني.',researchP3:'ويهدف هذا العمل إلى وصل المعرفة الأكاديمية والخبرة المقارنة بالاحتياجات العملية للمؤسسات.',partnershipsLabel:'الشراكات',partnershipsTitle:'معرفة تُبنى عبر<br>التعاون المؤسسي.',partnershipsIntro:'يتعاون مركز GOLD مع المنظمات والمؤسسات الوطنية والإقليمية والدولية والمهنية في مجالات الاهتمام المشترك، وذلك في حدود ونطاق كل ترتيب أو اتفاق تعاون.',pjlText:'تعاون في مجالات التعلم المهني والحوار والمبادرات التي تقع ضمن نطاق الخبرة والاهتمام المؤسسي المشترك.',unicriText:'تعاون في مجالات الوقاية من الجريمة والعدالة الجنائية والتعليم والتدريب وبناء القدرات، وفقًا لترتيبات التعاون ذات الصلة.',partnerLabel:'شريك مؤسسي',partnershipNote:'ترد أسماء الجهات الشريكة في سياق ترتيبات التعاون القائمة، ولا يُفهم منها أي اعتماد أو تأييد يتجاوز النطاق المتفق عليه.',enquireLabel:'الاستفسارات والاهتمام بالبرامج',enquireTitle:'استفسر<br>وسجّل اهتمامك.',enquireIntro:'أخبرنا بما تبحث عنه، ويمكن لفريق مركز GOLD التواصل معك بشأن البرامج والمواعيد والرسوم والتدريب المؤسسي أو أي استفسار آخر.',enquireNoteTitle:'ماذا يحدث بعد الإرسال؟',enquireNoteText:'يصل الاستفسار إلى المركز لمراجعته، وقد يتواصل معك أحد أعضاء الفريق باستخدام بيانات الاتصال التي قدّمتها.',fName:'الاسم الكامل *',fEmail:'البريد الإلكتروني *',fPhone:'الهاتف / واتساب',fCountry:'الدولة',fOrg:'جهة العمل / المؤسسة',fInterest:'مجال الاهتمام *',fEnquiryType:'نوع الاستفسار *',fMessage:'الرسالة',fConsent:'أوافق على استخدام مركز GOLD للمعلومات المقدمة للرد على هذا الاستفسار والتواصل معي بشأن البرنامج أو الخدمة ذات الصلة. *',choose:'اختر…',opGovernance:'الحوكمة',opOversight:'الرقابة',opLaw:'القانون والعدالة والأمن',opDiplomacy:'الدبلوماسية والشؤون الدولية',opProfessional:'التطوير المهني',opCustom:'برنامج مؤسسي / مصمم حسب الاحتياج',opOther:'أخرى',opInterest:'تسجيل اهتمام',opFees:'الرسوم / الأسعار',opDates:'المواعيد / الجدول',opInstitutional:'تدريب مؤسسي',opGeneral:'استفسار عام',sendEnquiry:'إرسال الاستفسار',expertLabel:'شبكة الخبراء',expertTitle:'التسجيل<br>كخبير.',expertIntro:'يمكن للمهنيين والأكاديميين والممارسين في المجالات ذات الصلة تقديم ملفاتهم للنظر في ضمهم إلى شبكة خبراء مركز GOLD والمشاركة مستقبلًا في أنشطة التدريب أو البحث أو الاستشارات أو الحوار.',expertCaveat:'لا يُعد التسجيل تعيينًا أو توظيفًا أو اعتمادًا، ولا ينشئ التزامًا بالاستعانة بمقدم الطلب. وتُراجع الملفات وفق احتياجات البرامج والأنشطة.',expertSectionProfessional:'البيانات المهنية',eTitle:'اللقب / المسمى المهني *',eEmployer:'جهة العمل الحالية *',ePosition:'المنصب الحالي *',eLinkedIn:'حساب LinkedIn',expertSectionEducation:'التعليم والخبرة',eUniversity:'الجامعة / المؤسسة التعليمية *',eQualification:'أعلى مؤهل علمي *',qBachelor:'بكالوريوس / ليسانس',qDiploma:'دبلوم دراسات عليا',qMasters:'ماجستير',qDoctorate:'دكتوراه / PhD',eFieldStudy:'مجال الدراسة *',eYears:'سنوات الخبرة المهنية *',eExpertise:'مجالات الخبرة والتخصص *',expertSectionLanguage:'المهارات اللغوية',eLanguages:'اللغات ومستوى الإتقان *',eEnglishTest:'اختبار اللغة الإنجليزية',tNone:'لا توجد شهادة اختبار رسمية',tOther:'اختبار معترف به آخر',eScore:'الدرجة / النتيجة',eTestYear:'سنة الحصول عليها',expertSectionContribution:'مجالات المساهمة المحتملة',eContribution:'المجالات التي يمكن المساهمة فيها',cTraining:'التدريب',cResearch:'البحث',cConsultancy:'الاستشارات / المساعدة الفنية',cConferences:'المؤتمرات / الجلسات الحوارية',cPolicy:'حوار السياسات',cProgramme:'تطوير البرامج',eBio:'نبذة مهنية مختصرة *',eCV:'السيرة الذاتية (PDF أو DOC أو DOCX) *',eCVNote:'يرجى إرفاق سيرة ذاتية محدثة، ويفضل أن يكون حجم الملف مناسبًا لضمان الإرسال.',eConsent:'أقر بصحة المعلومات وأوافق على احتفاظ مركز GOLD بهذا الملف ومراجعته لأغراض شبكة الخبراء والفرص المهنية ذات الصلة. *',submitExpert:'إرسال ملف الخبير',closingEyebrow:'مصر · الشرق الأوسط · أفريقيا',closingTitle:'منصة إقليمية للمعرفة<br>والحوار والتميز المهني.',footerLocation:'القاهرة، مصر',owned:'مركز GOLD مملوك ومدار بواسطة Governance for Educational Investment LLC.',tax:'الرقم الضريبي: 774332336.',backTop:'العودة إلى الأعلى ↑',interestSuccess:'شكرًا لك. تم إرسال استفسارك إلى مركز GOLD.',expertSuccess:'شكرًا لك. تم إرسال ملف الخبير للمراجعة.'}}
 
-    heroTitle:'نطوّر المعرفة.<br>ونعزّز قدرات المؤسسات.',
-    heroText:'يجمع مركز GOLD بين الحوكمة والرقابة والقانون والدبلوماسية في إطار مهني متكامل يهدف إلى تطوير المعرفة وتعزيز القدرات المؤسسية في مصر والشرق الأوسط وأفريقيا.',
-    explore:'استكشف مجالات عملنا <span aria-hidden="true">↗</span>',
-    heroRegister:'التسجيل في البرامج',
-    regionalPlatform:'منصة إقليمية.<br>بنهج عملي موجّه للتطبيق.',
-
-    aboutLabel:'عن المركز',
-    aboutTitle:'حيث تلتقي الخبرة<br>بالممارسة العملية.',
-    aboutP1:'يرمز اسم GOLD إلى أربع ركائز مترابطة: الحوكمة والرقابة والقانون والدبلوماسية. وتشكل هذه الركائز إطار عمل المركز في تطوير المعرفة المهنية وتعزيز القدرات المؤسسية وتقديم الخبرة التطبيقية.',
-    aboutP2:'يدعم المركز الجهات القضائية والنيابات العامة وأجهزة إنفاذ القانون والمؤسسات الدبلوماسية والحكومية والجامعات والمهنيين والقطاع الخاص، من خلال التدريب المتخصص والتطوير المهني والبحث والحوار في السياسات العامة والمساعدة الفنية وبرامج بناء القدرات.',
-    aboutP3:'ويعتمد المركز على شبكة من الممارسين والخبراء المتخصصين، تضم خبرات حالية وسابقة من المؤسسات القضائية والقانونية وغيرها من المجالات ذات الصلة، بما يسهم في الربط بين المعرفة الأكاديمية والسياسات العامة والاحتياجات المؤسسية العملية.',
-
-    pillarsLabel:'ركائز GOLD',
-    pillarsTitle:'أربع ركائز.<br>ونهج متكامل.',
-    pillarsIntro:'تمثل الحوكمة والرقابة والقانون والدبلوماسية الركائز الأربع للمركز، وتتكامل معها أنشطة التعليم والتدريب والبحث والمساعدة الفنية وبناء القدرات.',
-    govTitle:'الحوكمة',
-    govText:'التطوير المؤسسي والسياسات العامة وفعالية صنع القرار، بما يشمل الحوكمة الرقمية وأطر الحوكمة المسؤولة للذكاء الاصطناعي.',
-    govTags:'التطوير المؤسسي · السياسات العامة · الحوكمة الرقمية',
-    overTitle:'الرقابة',
-    overText:'المساءلة والنزاهة ومكافحة الفساد والامتثال، مع التركيز على تطوير نظم الرقابة المؤسسية ودعم الشفافية والممارسات الرشيدة.',
-    overTags:'المساءلة · النزاهة · الامتثال',
-    lawTitle:'القانون',
-    lawText:'سيادة القانون والعدالة والأمن، بما في ذلك العدالة الجنائية والجريمة المنظمة والتدفقات المالية غير المشروعة وغسل الأموال وتمويل الإرهاب والجرائم السيبرانية والتطرف العنيف والتعاون القضائي الدولي.',
-    lawTags:'العدالة والأمن · القانون الدولي · التقنيات الناشئة',
-    dipTitle:'الدبلوماسية',
-    dipText:'الممارسة الدبلوماسية والشؤون الدولية والمنظمات الدولية والتفاوض والوساطة والبروتوكول والسياسة الخارجية وتطبيقات القانون الدولي في العلاقات الدبلوماسية.',
-    dipTags:'العلاقات الدولية · التفاوض · التعاون الدولي',
-
-    programmesLabel:'التعليم والتطوير المهني',
-    programmesTitle:'تنمية الكفاءات.<br>وبناء القدرات.',
-    programmesIntro:'يقدّم المركز، عبر ركائزه الأربع، برامج تنفيذية ومهنية ودورات متخصصة وورش عمل ومؤتمرات وتمارين محاكاة وبرامج لبناء القدرات المؤسسية.',
-    instTitle:'المؤسسات والمهنيون',
-    instText:'برامج تدريب متخصصة وتطوير تنفيذي وحلول مصممة وفق الاحتياجات لبناء قدرات المؤسسات والممارسين في مجالات عمل المركز.',
-    studentTitle:'الطلاب والمهنيون في بداية مسيرتهم',
-    studentText:'برامج مخصصة لطلاب المرحلة الجامعية والدراسات العليا والمهنيين في بداية مسيرتهم، تربط المعرفة الأكاديمية بالممارسة وتدعم تأهيل جيل جديد من الكفاءات المهنية.',
-    programmeRegister:'سجّل اهتمامك بأحد البرامج',
-
-    responding:'مواكبة المتغيرات',
-    emergingTitle:'خبرات للتعامل مع<br>التحديات الناشئة.',
-    emergingText:'يتناول المركز القضايا المستجدة في مجالات الحوكمة والرقابة والقانون والدبلوماسية، ويسعى إلى مواءمة أنشطته مع الأولويات الوطنية في مصر، ولا سيما التحول الرقمي والذكاء الاصطناعي والحوكمة وتنمية القدرات البشرية، مع الاستفادة من المعايير الدولية والممارسات المقارنة ذات الصلة.',
-    tag1:'الذكاء الاصطناعي والقانون',
-    tag2:'التحول الرقمي',
-    tag3:'قانون الإعلام وتنظيمه',
-    tag4:'حوكمة الإعلام الرقمي ومنصات التواصل الاجتماعي',
-    tag5:'القضايا القانونية المرتبطة بالأمن السيبراني والمعلومات',
-
-    researchLabel:'البحوث والمعرفة',
-    researchTitle:'بحث وحوار<br>ومعرفة تطبيقية.',
-    researchP1:'إلى جانب التدريب، يربط مركز GOLD بين البحث وتحليل السياسات والحوار المهني عبر ركائزه الأربع.',
-    researchP2:'يجري المركز البحوث والتحليلات السياساتية، ويطوّر المنشورات والمنتجات المعرفية، ويجمع الخبراء والممارسين وصنّاع القرار لمناقشة القضايا ذات الأهمية المؤسسية والمهنية.',
-    researchP3:'ويسعى هذا العمل إلى بناء جسور بين المعرفة الأكاديمية والخبرات المقارنة والاحتياجات العملية للمؤسسات.',
-
-    partnershipsLabel:'الشراكات',
-    partnershipsTitle:'تعاون مؤسسي.<br>وخبرات مشتركة.',
-    partnershipsIntro:'يعمل مركز GOLD على تطوير أوجه التعاون الوطني والإقليمي والدولي مع المؤسسات التي تشاركه الاهتمام بالتطوير المهني وتبادل المعرفة وبناء القدرات.',
-    pjlText:'شريك مؤسسي في مجالات التعلم المهني وتبادل المعرفة ومبادرات بناء القدرات والتعاون المشترك.',
-    unicriText:'معهد الأمم المتحدة الأقاليمي لبحوث الجريمة والعدالة (UNICRI). وقد يشمل التعاون التدريب والتعليم والبحث وأنشطة بناء القدرات، وفقًا للترتيبات والاتفاقات المعمول بها بين الأطراف.',
-    partnerRelationship:'علاقة تعاون مؤسسي',
-    partnershipNote:'ترد الإشارة إلى العلاقات المؤسسية لبيان مجالات التعاون، ولا تُفهم منها أي دلالة تتجاوز نطاق الترتيبات أو الاتفاقات المعمول بها.',
-
-    registerLabel:'الاستفسار عن البرامج',
-    registerTitle:'سجّل اهتمامك.',
-    registerIntro:'أخبرنا بالمجال أو البرنامج الذي يهمك، وسيتواصل معك فريق مركز GOLD لتزويدك بالمواعيد المتاحة وتفاصيل البرنامج والرسوم المطبقة.',
-    whatHappens:'ماذا يحدث بعد الإرسال؟',
-    whatHappensText:'إرسال النموذج يُعد تعبيرًا عن الاهتمام فقط، ولا يترتب عليه تسجيل نهائي أو أي التزام بالدفع.',
-    nameLabel:'الاسم الكامل',
-    emailLabel:'البريد الإلكتروني',
-    phoneLabel:'رقم الهاتف',
-    countryLabel:'الدولة',
-    interestLabel:'مجال الاهتمام',
-    selectOption:'اختر المجال',
-    institutionalTraining:'تدريب مؤسسي / برنامج مخصص',
-    otherOption:'أخرى',
-    courseLabel:'اسم البرنامج أو الموضوع، إن كان معروفًا',
-    messageLabel:'رسالتك',
-    messagePlaceholder:'اذكر بإيجاز ما الذي تبحث عنه.',
-    consentText:'أوافق على أن يستخدم مركز GOLD المعلومات المقدمة في هذا النموذج للرد على استفساري.',
-    submitButton:'إرسال طلب الاهتمام',
-    submittedSuccess:'شكرًا لك. تم إرسال طلب الاهتمام، وسيتواصل معك فريق GOLD بعد مراجعته.',
-
-    closingTitle:'منصة إقليمية للمعرفة،<br>والحوار والتميز المهني.',
-    legal:'مركز GOLD مملوك وتديره شركة Governance for Educational Investment LLC. الرقم الضريبي: 774332336.',
-    backTop:'العودة إلى الأعلى ↑'
-  }
-};
-
-let lang='en';
-const html=document.documentElement;
-const body=document.body;
-const toggle=document.getElementById('langToggle');
-const original=new Map();
-
-document.querySelectorAll('[data-i18n]').forEach(el=>original.set(el,el.innerHTML));
-document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>original.set(el.dataset.i18nPlaceholder,el.getAttribute('placeholder')||''));
-
-function setLang(next){
-  lang=next;
-  const ar=lang==='ar';
-  html.lang=ar?'ar':'en';
-  html.dir=ar?'rtl':'ltr';
-  body.classList.toggle('rtl',ar);
-  document.querySelectorAll('[data-i18n]').forEach(el=>{
-    const k=el.dataset.i18n;
-    el.innerHTML=ar?(translations.ar[k]??original.get(el)):original.get(el);
-  });
-  document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
-    const k=el.dataset.i18nPlaceholder;
-    el.setAttribute('placeholder',ar?(translations.ar[k]??original.get(k)):original.get(k));
-  });
-  toggle.textContent=ar?'English ⇄':'العربية ⇄';
-  localStorage.setItem('gold-lang',lang);
-  showSubmissionStatus();
+let lang=localStorage.getItem('goldLang')||'en';
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+function applyLanguage(){
+ const t=translations[lang]; document.documentElement.lang=lang; document.documentElement.dir=lang==='ar'?'rtl':'ltr'; document.body.classList.toggle('rtl',lang==='ar');
+ $$('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(t[k]!==undefined) el.innerHTML=t[k]});
+ $('#langToggle').textContent=lang==='ar'?'English ⇄':'العربية ⇄';
+ document.title=lang==='ar'?'مركز GOLD | الحوكمة والرقابة والقانون والدبلوماسية':'GOLD Center | Governance, Oversight, Law & Diplomacy';
+ showSubmissionStatus();
 }
-
-toggle.addEventListener('click',()=>setLang(lang==='en'?'ar':'en'));
-setLang(localStorage.getItem('gold-lang')==='ar'?'ar':'en');
-
-const menu=document.getElementById('menuToggle');
-const nav=document.querySelector('.nav');
-menu.addEventListener('click',()=>{
-  const open=nav.classList.toggle('open');
-  menu.setAttribute('aria-expanded',String(open));
-});
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-  nav.classList.remove('open');
-  menu.setAttribute('aria-expanded','false');
-}));
-
-function showSubmissionStatus(){
-  const status=document.getElementById('formStatus');
-  if(!status) return;
-  const submitted=new URLSearchParams(window.location.search).get('submitted')==='1';
-  if(submitted){
-    status.textContent=lang==='ar' ? translations.ar.submittedSuccess : 'Thank you. Your expression of interest has been submitted and the GOLD Center team will review it.';
-    status.classList.add('success');
-  }
-}
-showSubmissionStatus();
+$('#langToggle').addEventListener('click',()=>{lang=lang==='en'?'ar':'en';localStorage.setItem('goldLang',lang);applyLanguage()});
+$('#menuToggle').addEventListener('click',()=>{const n=$('.nav');n.classList.toggle('open');$('#menuToggle').setAttribute('aria-expanded',n.classList.contains('open'))});
+$$('.nav a').forEach(a=>a.addEventListener('click',()=>$('.nav').classList.remove('open')));
+function showSubmissionStatus(){const v=new URLSearchParams(location.search).get('submitted');const i=$('#interestStatus'),e=$('#expertStatus');if(i){i.classList.remove('success');i.textContent=''}if(e){e.classList.remove('success');e.textContent=''}if(v==='interest'&&i){i.textContent=translations[lang].interestSuccess;i.classList.add('success')}if(v==='expert'&&e){e.textContent=translations[lang].expertSuccess;e.classList.add('success')}}
+applyLanguage();
