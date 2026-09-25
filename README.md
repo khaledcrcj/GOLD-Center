@@ -15,3 +15,16 @@ The PJL and UNICRI logos in `assets/images/` are the files supplied for this web
 
 ## RTL / Arabic
 Arabic is rendered RTL, while Latin acronyms and marks such as GOLD, PJL, UNICRI, IELTS, TOEFL, URLs and email addresses are isolated LTR so they are not reversed.
+
+## SEO update — 25 September 2026
+
+This package includes:
+- canonical URL for https://goldc.org/
+- optimized title and meta description
+- search-engine robots directives
+- Open Graph and X/Twitter sharing metadata
+- Schema.org Organization and WebSite structured data
+- robots.txt
+- sitemap.xml
+
+Deploy all files to the repository root, preserving the assets folder structure.
