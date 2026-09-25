@@ -9,12 +9,17 @@ const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 function applyLanguage(){
  const t=translations[lang]; document.documentElement.lang=lang; document.documentElement.dir=lang==='ar'?'rtl':'ltr'; document.body.classList.toggle('rtl',lang==='ar');
  $$('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(t[k]!==undefined) el.innerHTML=t[k]});
- $('#langToggle').textContent=lang==='ar'?'English ⇄':'العربية ⇄';
- document.title=lang==='ar'?'مركز GOLD | الحوكمة والرقابة والقانون والدبلوماسية':'GOLD Center | Governance, Oversight, Law & Diplomacy';
+ $$('[data-en][data-ar]').forEach(el=>{el.innerHTML=lang==='ar'?el.dataset.ar:el.dataset.en});
+ const lt=$('#langToggle'); if(lt) lt.textContent=lang==='ar'?'English ⇄':'العربية ⇄';
+ const titleEl=document.body;
+ const pageTitle=lang==='ar'?titleEl.dataset.titleAr:titleEl.dataset.titleEn;
+ document.title=pageTitle || (lang==='ar'?'مركز GOLD | الحوكمة والرقابة والقانون والدبلوماسية':'GOLD Center | Governance, Oversight, Law & Diplomacy');
+ const desc=document.querySelector('meta[name=description]');
+ const pageDesc=lang==='ar'?titleEl.dataset.descAr:titleEl.dataset.descEn; if(desc&&pageDesc) desc.setAttribute('content',pageDesc);
  showSubmissionStatus();
 }
-$('#langToggle').addEventListener('click',()=>{lang=lang==='en'?'ar':'en';localStorage.setItem('goldLang',lang);applyLanguage()});
-$('#menuToggle').addEventListener('click',()=>{const n=$('.nav');n.classList.toggle('open');$('#menuToggle').setAttribute('aria-expanded',n.classList.contains('open'))});
-$$('.nav a').forEach(a=>a.addEventListener('click',()=>$('.nav').classList.remove('open')));
+const langButton=$('#langToggle'); if(langButton) langButton.addEventListener('click',()=>{lang=lang==='en'?'ar':'en';localStorage.setItem('goldLang',lang);applyLanguage()});
+const menuButton=$('#menuToggle'); if(menuButton) menuButton.addEventListener('click',()=>{const n=$('.nav');if(!n)return;n.classList.toggle('open');menuButton.setAttribute('aria-expanded',n.classList.contains('open'))});
+$$('.nav a').forEach(a=>a.addEventListener('click',()=>{const n=$('.nav');if(n)n.classList.remove('open')}));
 function showSubmissionStatus(){const v=new URLSearchParams(location.search).get('submitted');const i=$('#interestStatus'),e=$('#expertStatus');if(i){i.classList.remove('success');i.textContent=''}if(e){e.classList.remove('success');e.textContent=''}if(v==='interest'&&i){i.textContent=translations[lang].interestSuccess;i.classList.add('success')}if(v==='expert'&&e){e.textContent=translations[lang].expertSuccess;e.classList.add('success')}}
 applyLanguage();
