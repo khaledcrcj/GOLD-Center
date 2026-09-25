@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="t d">
+<title id="t">Institutional hero visual</title>
+<desc id="d">Elegant architectural columns with a subtle globe motif.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0%" stop-color="#fbf8f2"/>
+    <stop offset="100%" stop-color="#efe7d7"/>
+  </linearGradient>
+  <linearGradient id="col" x1="0" x2="1">
+    <stop offset="0%" stop-color="#e5d9c7"/>
+    <stop offset="55%" stop-color="#f7f0e5"/>
+    <stop offset="100%" stop-color="#d6c3aa"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f8f3ea"/>
+    <stop offset="100%" stop-color="#dfd3c1"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="52%" cy="34%" r="42%">
+    <stop offset="0%" stop-color="rgba(255,235,185,.95)"/>
+    <stop offset="100%" stop-color="rgba(255,235,185,0)"/>
+  </radialGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#bca885" flood-opacity=".22"/>
+  </filter>
+</defs>
+<rect width="1000" height="760" fill="url(#bg)"/>
+<rect x="0" y="520" width="1000" height="240" fill="url(#floor)"/>
+<polygon points="0,760 1000,760 1000,555 640,500 360,515 0,580" fill="#f3ecdf" opacity=".6"/>
+<g opacity=".68">
+  <circle cx="878" cy="208" r="215" fill="none" stroke="#d4bf93" stroke-width="2.5"/>
+  <ellipse cx="878" cy="208" rx="170" ry="215" fill="none" stroke="#d4bf93" stroke-width="1.5"/>
+  <ellipse cx="878" cy="208" rx="115" ry="215" fill="none" stroke="#d4bf93" stroke-width="1.3"/>
+  <ellipse cx="878" cy="208" rx="60" ry="215" fill="none" stroke="#d4bf93" stroke-width="1.2"/>
+  <ellipse cx="878" cy="208" rx="215" ry="75" fill="none" stroke="#d4bf93" stroke-width="1.3"/>
+  <ellipse cx="878" cy="208" rx="215" ry="140" fill="none" stroke="#d4bf93" stroke-width="1.3"/>
+  <path d="M663 208h430" stroke="#d4bf93" stroke-width="1.4"/>
+</g>
+<g filter="url(#shadow)">
+  <rect x="400" y="120" width="90" height="440" rx="4" fill="url(#col)"/>
+  <rect x="401" y="96" width="88" height="34" rx="3" fill="#f1e8da"/>
+  <rect x="392" y="558" width="106" height="38" rx="2" fill="#dcc8a8"/>
+  <line x1="422" x2="422" y1="130" y2="555" stroke="#d9c9b4" stroke-width="1"/>
+  <line x1="445" x2="445" y1="130" y2="555" stroke="#d9c9b4" stroke-width="1"/>
+  <line x1="468" x2="468" y1="130" y2="555" stroke="#d9c9b4" stroke-width="1"/>
+  <rect x="590" y="60" width="128" height="518" rx="4" fill="url(#col)"/>
+  <rect x="592" y="30" width="124" height="40" rx="3" fill="#f1e8da"/>
+  <rect x="578" y="576" width="152" height="50" rx="2" fill="#dcc8a8"/>
+  <line x1="625" x2="625" y1="75" y2="572" stroke="#d9c9b4" stroke-width="1"/>
+  <line x1="654" x2="654" y1="75" y2="572" stroke="#d9c9b4" stroke-width="1"/>
+  <line x1="683" x2="683" y1="75" y2="572" stroke="#d9c9b4" stroke-width="1"/>
+</g>
+<ellipse cx="510" cy="520" rx="240" ry="40" fill="#d7c8ae" opacity=".18"/>
+<rect width="1000" height="760" fill="url(#glow)"/>
+</svg>
