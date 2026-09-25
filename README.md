@@ -1,8 +1,20 @@
-# G.O.L.D. Center website — bilingual v4.3
+# G.O.L.D. Center website — v4.6
 
-Changes:
-- Added Board & Committee Governance / Board Secretary practice as an indicative field under Governance.
-- It is not presented as a standalone or currently announced programme.
-- Restored and strengthened the visible language switch on every English and Arabic page.
-- English pages show "العربية"; Arabic pages show "EN".
-- Existing logo artwork remains unchanged.
+SEO & identity update:
+- Proper square G/O/L/D favicon set for Google Search, browser tabs and mobile devices.
+- Consistent written brand name: G.O.L.D. Center.
+- Organization + WebSite + WebPage structured data.
+- Breadcrumb structured data on internal pages.
+- English / Arabic hreflang plus x-default.
+- Full sitemap regenerated.
+- Arabic social metadata retained.
+
+Arabic:
+- Updated institutional Arabic typography using Noto Kufi Arabic with system fallbacks.
+
+Location:
+- Google Maps location added to English and Arabic Contact pages.
+- Google Maps URL and geographic coordinates included in Organization structured data.
+
+Social:
+- LinkedIn, Instagram and YouTube are intentionally not linked until official profile URLs are supplied.
