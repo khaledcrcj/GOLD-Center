@@ -1,12 +1,12 @@
-# GOLD Center — multi-page SEO content edition
+# GOLD Center website — bilingual English / Arabic build
 
-This build expands the multi-page GOLD Center website with stronger substantive copy and internal linking.
+This package keeps the approved English structure and adds a full Arabic mirror under `/ar/`.
 
-Included:
-- Dedicated pages for About, Areas, Governance, Oversight, Law, Diplomacy, Programmes, Research and Partnerships
-- Expanded bilingual English/Arabic content on core pages
-- Stronger contextual internal links between related pages
-- Existing forms, branding and partner assets preserved
-- Existing sitemap.xml, robots.txt, canonical metadata and structured data preserved
+- English remains the drafting/source version.
+- Arabic pages are RTL and use professional institutional terminology.
+- GOLD, PJL, UNICRI, AI, AML/CFT and other Latin acronyms remain visually LTR.
+- Language switch added to English and Arabic pages.
+- Sitemap includes both English and Arabic URLs.
+- Navigation, Media & Announcements, Contact Us, legal/footer pages, capacity-building, funded projects and consortium sections are included.
 
-Upload the contents of this folder to the root of the GitHub Pages repository.
+Upload the CONTENTS of this package to the GitHub Pages repository root.
