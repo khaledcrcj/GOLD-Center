@@ -1,12 +1,8 @@
-# GOLD Center website — bilingual English / Arabic build
+# G.O.L.D. Center website — bilingual v4.1
 
-This package keeps the approved English structure and adds a full Arabic mirror under `/ar/`.
-
-- English remains the drafting/source version.
-- Arabic pages are RTL and use professional institutional terminology.
-- GOLD, PJL, UNICRI, AI, AML/CFT and other Latin acronyms remain visually LTR.
-- Language switch added to English and Arabic pages.
-- Sitemap includes both English and Arabic URLs.
-- Navigation, Media & Announcements, Contact Us, legal/footer pages, capacity-building, funded projects and consortium sections are included.
-
-Upload the CONTENTS of this package to the GitHub Pages repository root.
+Minor programme-status correction:
+- No current programmes are presented as announced/open.
+- Board Secretary & Corporate Governance is retained only as an indicative training area within the broader programme portfolio.
+- The standalone Board Secretary programme page has been removed.
+- Homepage and Programmes pages now state that programme announcements are coming soon.
+- English and Arabic versions updated consistently.
