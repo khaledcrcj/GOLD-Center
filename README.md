@@ -1,9 +1,11 @@
-# G.O.L.D. Center website — v4.9
+# G.O.L.D. Center website — v4.7
 
 Key changes:
-- Restored the approved, more prestigious hero using the approved institutional banner image.
-- Greatly shortened the homepage in English and Arabic.
-- Removed redundant homepage category/areas repetition.
-- Kept the old square logo and existing SEO / maps / social preview setup.
-- Reduced social icon sizes further.
-- Improved mobile hero proportions and prevented horizontal overflow.
+- Implemented the new premium circular G/O/L/D emblem + G.O.L.D. Center wordmark.
+- Circular premium favicon generated from the new emblem.
+- Homepages significantly shortened and simplified in English and Arabic.
+- Arabic hero typography reduced for better visual balance.
+- Added visible LinkedIn, Instagram and YouTube icons as inactive placeholders.
+- Added Expert Network positioning (experts selected according to each programme/project).
+- Added Projects & Activities pages in English and Arabic.
+- Retained v4.6 SEO, maps, structured data, hreflang and Arabic social metadata.
