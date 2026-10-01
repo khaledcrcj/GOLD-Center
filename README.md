@@ -25,3 +25,14 @@ Homepage update v4.10:
 - Removed the later image-based hero.
 - Shortened the homepage in English and Arabic.
 - Kept SEO, maps, bilingual structure, logos and footer pages.
+
+
+## Current update
+- Built directly from the user-supplied current GitHub ZIP.
+- Added official LinkedIn profile: https://www.linkedin.com/company/gold-center-egypt/
+- Added compact LinkedIn, Instagram and YouTube icons; LinkedIn is live, the other two remain visual placeholders.
+- Added LinkedIn to Organization structured data.
+- Added a new 1200×630 safe-crop social sharing image using the circular G.O.L.D. emblem.
+- Updated favicon/app icons using the same circular emblem.
+- Removed obsolete standalone Board Secretary programme pages; Board Secretary remains a Governance field only.
+- Regenerated sitemap after cleanup.
