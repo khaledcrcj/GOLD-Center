@@ -36,3 +36,11 @@ Homepage update v4.10:
 - Updated favicon/app icons using the same circular emblem.
 - Removed obsolete standalone Board Secretary programme pages; Board Secretary remains a Governance field only.
 - Regenerated sitemap after cleanup.
+
+
+## Event publication update
+- Added English and Arabic event article for the National Forum on Data Protection & Governance.
+- Added the three supplied event photographs with optimized web filenames.
+- Added the event to News, Events and Photo & Video on the Media & Announcements page.
+- Added article-specific social metadata and featured image.
+- Regenerated sitemap to include the new English and Arabic article URLs.
