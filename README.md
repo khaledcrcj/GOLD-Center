@@ -44,3 +44,11 @@ Homepage update v4.10:
 - Added the event to News, Events and Photo & Video on the Media & Announcements page.
 - Added article-specific social metadata and featured image.
 - Regenerated sitemap to include the new English and Arabic article URLs.
+
+
+## Final event article approval update
+- Replaced the National Forum article with the approved final English version.
+- Added the expanded speaker/moderator section.
+- Added cross-sector sponsor acknowledgment without implying exclusive sponsorship.
+- Updated the Arabic article to mirror the approved positioning.
+- Updated article metadata and media-page teaser.
